@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li *ngFor="let f of films" class="list-group-item">
+        <h2>{{ f.title }}</h2> Rated <strong>{{ f.rating }}</strong> 
+        <p>{{ f.description }}</p>
+        <p>Release Year: {{ f.release_year }} -- Replacement Cost: {{ f.replacement_cost }}</p>
+    </li>
+</ul>
